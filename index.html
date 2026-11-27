@@ -224,32 +224,6 @@ h1{
 .web-link:hover{background:linear-gradient(135deg,rgba(162,155,254,.26),rgba(72,219,251,.16))}
 .web-link .url{color:var(--cyan);font-weight:800;word-break:break-all}
 
-/* Price big */
-.price{
-  position:relative;overflow:hidden;
-  background:linear-gradient(135deg,rgba(254,202,87,.14),rgba(255,107,107,.08));
-  border:1px solid rgba(254,202,87,.35);
-  border-radius:18px;padding:20px;margin-bottom:18px;
-  text-align:center;
-}
-.price::after{
-  content:'';position:absolute;top:-50%;right:-30%;width:160px;height:160px;
-  background:radial-gradient(circle,rgba(254,202,87,.25),transparent 70%);
-  filter:blur(20px);pointer-events:none;
-}
-.price-label{
-  font-size:10.5px;font-weight:800;letter-spacing:1.5px;
-  text-transform:uppercase;color:var(--muted);margin-bottom:6px;
-}
-.price-value{
-  font-size:40px;font-weight:900;line-height:1;letter-spacing:-1px;
-  background:linear-gradient(90deg,var(--gold),var(--coral));
-  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
-  filter:drop-shadow(0 4px 16px rgba(254,202,87,.3));
-}
-.price-value small{font-size:18px;font-weight:800}
-.price-note{font-size:11.5px;color:var(--muted);margin-top:8px}
-
 /* Contact */
 .contact-title{
   font-size:11.5px;font-weight:800;color:rgba(255,255,255,.6);
@@ -298,7 +272,6 @@ h1{
   h1{font-size:22px}
   .logo-ring{width:76px;height:76px}
   .logo-ring .emoji{font-size:34px}
-  .price-value{font-size:34px}
   .pack-num{font-size:20px}
   .pack-price{font-size:15px}
   .retail-price{font-size:18px}
@@ -392,13 +365,6 @@ h1{
         <div class="retail-unit">/ 1 lượt share</div>
       </div>
     </div>
-  </div>
-
-  <!-- Giá tham khảo -->
-  <div class="price">
-    <div class="price-label">Giá bán lẻ tham khảo</div>
-    <div class="price-value">20.000<small>đ</small></div>
-    <div class="price-note">/ 1 lượt — thanh toán qua Zalo</div>
   </div>
 
   <!-- Liên hệ -->
